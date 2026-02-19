@@ -1,0 +1,182 @@
+@import 'modern-normalize/modern-normalize.css';
+@import '@fontsource/roboto-mono/latin-400.css';
+@import '@fontsource/roboto-mono/latin-500.css';
+
+:root {
+  --exercise-height: 2.5rem;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --hover-color: #f3f3f3;
+  --open-hover-color: #eee;
+  --border-color: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --exercise-height: 2.5rem;
+    --background-color: #121212;
+    --text-color: #eee;
+    --hover-color: #1c1c1c;
+    --open-hover-color: #202020;
+    --border-color: #333333;
+  }
+}
+
+html {
+  font-family:
+    'Roboto Mono',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+b {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:disabled,
+button:disabled {
+  cursor: not-allowed;
+}
+
+header {
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border: 1px solid var(--border-color);
+  border-top: none;
+  padding: 1rem;
+}
+
+header > h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+header,
+#exercises {
+  width: 80ch;
+  margin: 0 auto;
+  max-width: 100vw;
+}
+
+#exercises {
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+}
+
+.exercise {
+  transition: background-color 0.22s;
+}
+
+.exercise:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.exercise:hover {
+  --background-color: var(--hover-color);
+  background-color: var(--background-color);
+}
+
+.exercise:open {
+  background-color: var(--hover-color);
+}
+
+.exercise:open:hover {
+  background-color: var(--open-hover-color);
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  line-height: var(--exercise-height);
+  height: var(--exercise-height);
+  content-visibility: auto;
+  contain-intrinsic-size: var(--exercise-height);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+summary::marker {
+  content: '';
+}
+
+.exercise-id {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exercise-id > .line {
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.3;
+  user-select: none;
+}
+
+.exercise-id > .line-end {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  opacity: 0.3;
+  flex-shrink: 0;
+  margin: 0 0.25rem 0 -0.5rem;
+  user-select: none;
+}
+
+summary > .exercise-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exercise-description,
+.exercise-footer {
+  padding: 1rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+.exercise-description > .exercise-name {
+  display: none;
+}
+
+.exercise-description > p {
+  line-height: 1.65;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  header > h1 {
+    font-size: 1rem;
+  }
+
+  .exercise-description > .exercise-name {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  #exercises {
+    border-left: none;
+    border-right: none;
+  }
+}

@@ -1,0 +1,111 @@
+<html lang='de'>
+
+  <head>
+    <title>Chalkboard</title>
+    <meta charset='utf-8' />
+    <meta content='width=device-width,initial-scale=1' name='viewport' />
+    <meta content='Verzeichnis für Boulderübungen.' name='name' />
+    <meta name='color-scheme' content='dark light' />
+    <meta
+      name='theme-color'
+      content='#ffffff'
+      media='(prefers-color-scheme: light)'
+    />
+    <meta
+      name='theme-color'
+      content='#121212'
+      media='(prefers-color-scheme: dark)'
+    />
+    <meta content='v{{pkg.version}}' name='version' />
+    <link href='favicon.ico' rel='shortcut icon' type='image/x-icon' />
+    <base href='{{base}}' />
+    <link rel='stylesheet' href='styles.min.css' />
+    <script>
+      window.chalkboard = { goals:
+      {{json goalIds}}, targets:
+      {{json targetIds}}, }
+    </script>
+    <script src='app.min.js' defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Chalkboard!</h1>
+      <div>
+        <button id='target-chip' disabled>
+          Subjekt
+        </button>
+        <button id='goal-chip' disabled>
+          Aspekt
+        </button>
+        <dialog id='target-dialog'>
+          <button autofocus>Close</button>
+          <h2>Subjekt</h2>
+          <ul>
+            {{#each data.targets}}
+              <li role='button' data-target-id='{{this.id}}'>
+                <b>{{padTarget this.id}}</b>
+                <span>{{this.label}}</span>
+              </li>
+            {{/each}}
+          </ul>
+        </dialog>
+        <dialog id='goal-dialog'>
+          <button autofocus>Close</button>
+          <h2>Aspekt</h2>
+          <ul>
+            {{#each data.goals}}
+              <li role='button' data-goal-id='{{this.id}}'>
+                <b>{{padGoal this.id}}</b>
+                <span>{{this.label}}</span>
+              </li>
+            {{/each}}
+          </ul>
+        </dialog>
+      </div>
+    </header>
+    <main id='exercises'>
+      {{#each data.exercises}}
+        <details
+          class='exercise'
+          id='{{this.targetId}}-{{this.goalId}}-{{this.abbreviation}}'
+          data-goal='{{this.goalId}}'
+          data-target='{{this.targetId}}'
+          data-name='{{this.name}}'
+        >
+          <summary>
+            <div class='exercise-id'>
+              <span>{{this.targetId}}</span>
+              <div class='line' aria-hidden='true'>{{padPostTarget
+                  this.targetId
+                }}</div>
+              <span>{{this.goalId}}</span>
+              <div class='line' aria-hidden='true'>{{padPostGoal
+                  this.goalId
+                }}</div>
+              <span>{{this.abbreviation}}</span>
+              <div class='line' aria-hidden='true'>{{padPostAbbreviation
+                  this.abbreviation
+                }}</div>
+              <div class='line-end' aria-hidden='true'></div>
+            </div>
+            <div class='exercise-name'>
+              {{this.name}}
+            </div>
+          </summary>
+          <div class='exercise-description'>
+            <b role='heading' class='exercise-name'>{{this.name}}</b>
+            <p>{{{this.description}}}</p>
+          </div>
+          <footer class='exercise-footer'>
+            <a
+              href='#{{this.targetId}}-{{this.goalId}}-{{this.abbreviation}}'
+              onclick='onShareExerciseLink(this, event, "{{this.name}}")'
+            >Direktlink teilen</a>
+          </footer>
+        </details>
+      {{/each}}
+    </main>
+  </body>
+
+</html>

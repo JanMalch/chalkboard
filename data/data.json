@@ -1,0 +1,121 @@
+{
+  "$schema": "./schema.json",
+  "goals": [
+    {
+      "id": "A",
+      "label": "Ausdauer"
+    },
+    {
+      "id": "B",
+      "label": "Beweglichkeit"
+    },
+    {
+      "id": "K",
+      "label": "Koordination"
+    },
+    {
+      "id": "M",
+      "label": "Maximalkraft"
+    },
+    {
+      "id": "S",
+      "label": "Schnellkraft"
+    },
+    {
+      "id": "T",
+      "label": "Technik",
+      "name": "Verbesserung der allgemeinen Bouldertechnik."
+    }
+  ],
+  "targets": [
+    {
+      "id": "F",
+      "label": "Finger"
+    },
+    {
+      "id": "U",
+      "label": "Unterarme"
+    },
+    {
+      "id": "B",
+      "label": "Bizeps"
+    },
+    {
+      "id": "T",
+      "label": "Trizeps"
+    },
+    {
+      "id": "OR",
+      "label": "Oberer Rücken"
+    },
+    {
+      "id": "UR",
+      "label": "Unterer Rücken"
+    },
+    {
+      "id": "S",
+      "label": "Schultern"
+    },
+    {
+      "id": "P",
+      "label": "Pecs (Brust)"
+    },
+    {
+      "id": "C",
+      "label": "Core (Bauch/Rumpf)"
+    },
+    {
+      "id": "H",
+      "label": "Hüfte"
+    },
+    {
+      "id": "G",
+      "label": "Glutes / Gesäß"
+    },
+    {
+      "id": "Q",
+      "label": "Quadrizeps (Oberschenkel vorne)"
+    },
+    {
+      "id": "HS",
+      "label": "Hamstrings (Oberschenkel hinten)"
+    }
+  ],
+  "exercises": [
+    {
+      "abbreviation": "Crl",
+      "goalId": "A",
+      "targetId": "F",
+      "name": "Finger Curls",
+      "description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt."
+    },
+    {
+      "abbreviation": "DH",
+      "goalId": "M",
+      "targetId": "F",
+      "name": "(Weighted) Dead Hangs",
+      "description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt."
+    },
+    {
+      "abbreviation": "ALP",
+      "goalId": "S",
+      "targetId": "F",
+      "name": "Abwechselnd Leisten überspringen",
+      "description": "Fokus auf Schnelligkeit, Plyometrie."
+    },
+    {
+      "abbreviation": "Rep",
+      "goalId": "A",
+      "targetId": "F",
+      "name": "Repeater an Leisten",
+      "description": "5s/5s, 6s/4s oder 7s/3s. Üblicherweise an einer <b>20mm Leiste</b> ausgeführt."
+    },
+    {
+      "abbreviation": "Sups",
+      "goalId": "M",
+      "targetId": "UR",
+      "name": "Supermans",
+      "description": "Stärkung des unteren Rücken als Antagonist."
+    }
+  ]
+}
