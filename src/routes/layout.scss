@@ -1,0 +1,81 @@
+@import 'modern-normalize/modern-normalize.css';
+@import '@fontsource/roboto-mono/latin-400.css';
+@import '@fontsource/roboto-mono/latin-500.css';
+
+:root {
+	--exercise-height: 2.5rem;
+	--background-color: #ffffff;
+	--text-color: #333333;
+	--hover-color: #f3f3f3;
+	--open-hover-color: #eee;
+	--border-color: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--exercise-height: 2.5rem;
+		--background-color: #121212;
+		--text-color: #eee;
+		--hover-color: #1c1c1c;
+		--open-hover-color: #202020;
+		--border-color: #333333;
+	}
+}
+
+html {
+	font-family:
+		'Roboto Mono',
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+		'Segoe UI Symbol';
+}
+
+html,
+body,
+#app {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	height: 100%;
+}
+
+h1,
+h2,
+b {
+	font-weight: 500;
+}
+
+a,
+button,
+.btn {
+	cursor: pointer;
+	color: var(--text-color);
+}
+
+.text-btn {
+	outline: none;
+	border: none;
+	background: none;
+	color: var(--text-color);
+	text-decoration: underline;
+}
+
+input:disabled {
+	cursor: not-allowed;
+}
+
+svg {
+	width: 1.5rem;
+	height: 1.5rem;
+	opacity: 0.8;
+}
+
+p {
+	line-height: 1.65;
+}

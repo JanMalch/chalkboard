@@ -1,0 +1,85 @@
+{
+	"keys": [
+		{
+			"path": ["name"],
+			"id": "name",
+			"weight": 1,
+			"src": "name",
+			"getFn": null
+		},
+		{
+			"path": ["id"],
+			"id": "id",
+			"weight": 1,
+			"src": "id",
+			"getFn": null
+		}
+	],
+	"records": [
+		{
+			"i": 0,
+			"$": {
+				"0": {
+					"v": "Finger Curls",
+					"n": 0.707
+				},
+				"1": {
+					"v": "F-A-Crl",
+					"n": 1
+				}
+			}
+		},
+		{
+			"i": 1,
+			"$": {
+				"0": {
+					"v": "Repeater an Leisten",
+					"n": 0.577
+				},
+				"1": {
+					"v": "F-A-Rep",
+					"n": 1
+				}
+			}
+		},
+		{
+			"i": 2,
+			"$": {
+				"0": {
+					"v": "(Weighted) Dead Hangs",
+					"n": 0.577
+				},
+				"1": {
+					"v": "F-M-DH",
+					"n": 1
+				}
+			}
+		},
+		{
+			"i": 3,
+			"$": {
+				"0": {
+					"v": "Abwechselnd Leisten überspringen",
+					"n": 0.577
+				},
+				"1": {
+					"v": "F-S-ALP",
+					"n": 1
+				}
+			}
+		},
+		{
+			"i": 4,
+			"$": {
+				"0": {
+					"v": "Supermans",
+					"n": 1
+				},
+				"1": {
+					"v": "UR-M-Sups",
+					"n": 1
+				}
+			}
+		}
+	]
+}

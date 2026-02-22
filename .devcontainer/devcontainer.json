@@ -1,11 +1,12 @@
 {
-  "name": "Chalkboard Development Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node",
-  "postStartCommand": "npm run dev",
-  "forwardPorts": [8080],
-  "customizations": {
-    "vscode": {
-      "extensions": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode"]
-    }
-  }
+	"name": "Chalkboard Development Container",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node",
+	"updateContentCommand": "npm install",
+	"postStartCommand": "npm run dev",
+	"forwardPorts": [5173],
+	"customizations": {
+		"vscode": {
+			"extensions": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode", "svelte.svelte-vscode"]
+		}
+	}
 }
