@@ -78,8 +78,7 @@
 			<FilterChip items={data.targets} label="Bereich" bind:selected={selectedTarget}></FilterChip>
 			<FilterChip items={data.goals} label="Ziel" bind:selected={selectedGoal}></FilterChip>
 			<Notes />
-			<!-- FIXME: /info page -->
-			<a href={resolve('/')} class="text-btn">Info</a>
+			<a href={resolve('/info')} class="text-btn">Info</a>
 		</div>
 	</header>
 
