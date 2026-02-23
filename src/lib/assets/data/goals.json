@@ -8,7 +8,7 @@
 		{
 			"id": "b",
 			"label": "Beweglichkeit",
-			"count": 0
+			"count": 1
 		},
 		{
 			"id": "k",
@@ -33,7 +33,7 @@
 		{
 			"id": "x",
 			"label": "Benchmark",
-			"count": 4
+			"count": 3
 		}
 	]
 }

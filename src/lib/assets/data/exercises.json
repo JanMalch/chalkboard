@@ -57,20 +57,20 @@
 			"id": "FxPnc2h"
 		},
 		{
+			"abbreviation": "FP",
+			"goalId": "b",
+			"targetId": "OR",
+			"name": "Face Pulls",
+			"description": "Face Pulls unterstützen bei korrekter Haltung.",
+			"id": "ORbFP"
+		},
+		{
 			"abbreviation": "PU",
 			"goalId": "m",
 			"targetId": "OR",
 			"name": "Pull-ups",
 			"description": "Klimmzüge, ggf. mit Zusatzgewicht oder mit Unterstützung.",
 			"id": "ORmPU"
-		},
-		{
-			"abbreviation": "FP",
-			"goalId": "x",
-			"targetId": "OR",
-			"name": "Face Pulls",
-			"description": "Face Pulls unterstützen bei korrekter Haltung.",
-			"id": "ORxFP"
 		},
 		{
 			"abbreviation": "Sups",
