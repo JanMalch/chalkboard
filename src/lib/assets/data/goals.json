@@ -1,39 +1,39 @@
 {
-	"goals": [
-		{
-			"id": "A",
-			"label": "Ausdauer",
-			"count": 2
-		},
-		{
-			"id": "B",
-			"label": "Beweglichkeit",
-			"count": 0
-		},
-		{
-			"id": "K",
-			"label": "Koordination",
-			"count": 0
-		},
-		{
-			"id": "M",
-			"label": "Maximalkraft",
-			"count": 2
-		},
-		{
-			"id": "S",
-			"label": "Schnellkraft",
-			"count": 1
-		},
-		{
-			"id": "T",
-			"label": "Technik",
-			"count": 0
-		},
-		{
-			"id": "X",
-			"label": "Benchmark",
-			"count": 0
-		}
-	]
+  "goals": [
+    {
+      "id": "A",
+      "label": "Ausdauer",
+      "count": 2
+    },
+    {
+      "id": "B",
+      "label": "Beweglichkeit",
+      "count": 1
+    },
+    {
+      "id": "K",
+      "label": "Koordination",
+      "count": 0
+    },
+    {
+      "id": "M",
+      "label": "Maximalkraft",
+      "count": 3
+    },
+    {
+      "id": "S",
+      "label": "Schnellkraft",
+      "count": 1
+    },
+    {
+      "id": "T",
+      "label": "Technik",
+      "count": 0
+    },
+    {
+      "id": "X",
+      "label": "Benchmark",
+      "count": 3
+    }
+  ]
 }

@@ -1,44 +1,84 @@
 {
-	"exercises": [
-		{
-			"abbreviation": "Crl",
-			"goalId": "A",
-			"targetId": "F",
-			"name": "Finger Curls",
-			"description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt.",
-			"id": "F-A-Crl"
-		},
-		{
-			"abbreviation": "Rep",
-			"goalId": "A",
-			"targetId": "F",
-			"name": "Repeater an Leisten",
-			"description": "5s/5s, 6s/4s oder 7s/3s. Üblicherweise an einer <b>20mm Leiste</b> ausgeführt.",
-			"id": "F-A-Rep"
-		},
-		{
-			"abbreviation": "DH",
-			"goalId": "M",
-			"targetId": "F",
-			"name": "(Weighted) Dead Hangs",
-			"description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt.",
-			"id": "F-M-DH"
-		},
-		{
-			"abbreviation": "ALP",
-			"goalId": "S",
-			"targetId": "F",
-			"name": "Abwechselnd Leisten überspringen",
-			"description": "Fokus auf Schnelligkeit, Plyometrie.",
-			"id": "F-S-ALP"
-		},
-		{
-			"abbreviation": "Sups",
-			"goalId": "M",
-			"targetId": "UR",
-			"name": "Supermans",
-			"description": "Stärkung des unteren Rücken als Antagonist.",
-			"id": "UR-M-Sups"
-		}
-	]
+  "exercises": [
+    {
+      "abbreviation": "Crl",
+      "goalId": "A",
+      "targetId": "F",
+      "name": "Finger Curls",
+      "description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt.",
+      "id": "F-A-Crl"
+    },
+    {
+      "abbreviation": "Rep",
+      "goalId": "A",
+      "targetId": "F",
+      "name": "Repeater an Leisten",
+      "description": "5s/5s, 6s/4s oder 7s/3s. Üblicherweise an einer <b>20mm Leiste</b> ausgeführt.",
+      "id": "F-A-Rep"
+    },
+    {
+      "abbreviation": "DH",
+      "goalId": "M",
+      "targetId": "F",
+      "name": "Dead Hangs",
+      "description": "Üblicherweise an einer <b>20mm Leiste</b> ausgeführt. Dead Hangs können auch mit zusätzlichem Gewicht durchgeführt werden.",
+      "id": "F-M-DH"
+    },
+    {
+      "abbreviation": "ALP",
+      "goalId": "S",
+      "targetId": "F",
+      "name": "Abwechselnd Leisten überspringen",
+      "description": "Fokus auf Schnelligkeit, Plyometrie.",
+      "id": "F-S-ALP"
+    },
+    {
+      "abbreviation": "DH",
+      "goalId": "X",
+      "targetId": "F",
+      "name": "Dead Hangs (Benchmark)",
+      "description": "Bei diesem Benchmark wird getestet mit wie viel Gewicht (Zusatzgewicht, oder erleichtert) ein Dead Hang für 3s kontrolliert gehalten werden kann. Üblicherweise wird er an einer <b>20mm Leiste</b> im Half Crimp ausgeführt.",
+      "id": "F-X-DH"
+    },
+    {
+      "abbreviation": "Pnc",
+      "goalId": "X",
+      "targetId": "F",
+      "name": "Pinch (Benchmark)",
+      "description": "Bei diesem Benchmark wird getestet wie viel Gewicht du einhändig am Pinchblock vom Boden abheben kannst.",
+      "id": "F-X-Pnc"
+    },
+    {
+      "abbreviation": "Pnc2h",
+      "goalId": "X",
+      "targetId": "F",
+      "name": "Pinch, beidhändig (Benchmark)",
+      "description": "Bei diesem Benchmark wird getestet wie viel Gewicht du beidhändig am Pinchblock vom Boden abheben kannst.",
+      "id": "F-X-Pnc2h"
+    },
+    {
+      "abbreviation": "FP",
+      "goalId": "B",
+      "targetId": "OR",
+      "name": "Face Pulls",
+      "description": "Face Pulls unterstützen bei korrekter Haltung.",
+      "id": "OR-B-FP"
+    },
+    {
+      "abbreviation": "PU",
+      "goalId": "M",
+      "targetId": "OR",
+      "name": "Pull Ups",
+      "description": "Klimmzüge, ggf. mit Zusatzgewicht oder mit Unterstützung.",
+      "id": "OR-M-PU"
+    },
+    {
+      "abbreviation": "Sups",
+      "goalId": "M",
+      "targetId": "UR",
+      "name": "Supermans",
+      "description": "Stärkung des unteren Rücken als Antagonist.",
+      "id": "UR-M-Sups"
+    }
+  ]
 }
