@@ -19,7 +19,7 @@ exercises.exercises.sort(exercisesComparator);
 exercises.exercises.forEach((e) => {
 	goalCount.set(e.goalId, (goalCount.get(e.goalId) ?? 0) + 1);
 	targetCount.set(e.targetId, (targetCount.get(e.targetId) ?? 0) + 1);
-	e.id = `${e.targetId}-${e.goalId}-${e.abbreviation}`;
+	e.id = `${e.targetId}${e.goalId}${e.abbreviation}`;
 	if (seen.has(e.id)) {
 		console.error('Duplicate exercise ID:', e.id);
 		process.exit(1);

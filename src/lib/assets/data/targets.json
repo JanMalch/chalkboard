@@ -1,69 +1,69 @@
 {
-  "targets": [
-    {
-      "id": "B",
-      "label": "Bizeps",
-      "count": 0
-    },
-    {
-      "id": "C",
-      "label": "Core",
-      "count": 0
-    },
-    {
-      "id": "F",
-      "label": "Finger",
-      "count": 7
-    },
-    {
-      "id": "G",
-      "label": "Glutes",
-      "count": 0
-    },
-    {
-      "id": "H",
-      "label": "Hüfte",
-      "count": 0
-    },
-    {
-      "id": "HS",
-      "label": "Hamstrings",
-      "count": 0
-    },
-    {
-      "id": "OR",
-      "label": "Oberer Rücken",
-      "count": 2
-    },
-    {
-      "id": "P",
-      "label": "Pecs (Brust)",
-      "count": 0
-    },
-    {
-      "id": "Q",
-      "label": "Quadrizeps",
-      "count": 0
-    },
-    {
-      "id": "S",
-      "label": "Schultern",
-      "count": 0
-    },
-    {
-      "id": "T",
-      "label": "Trizeps",
-      "count": 0
-    },
-    {
-      "id": "U",
-      "label": "Unterarme",
-      "count": 0
-    },
-    {
-      "id": "UR",
-      "label": "Unterer Rücken",
-      "count": 1
-    }
-  ]
+	"targets": [
+		{
+			"id": "B",
+			"label": "Bizeps",
+			"count": 0
+		},
+		{
+			"id": "C",
+			"label": "Core",
+			"count": 0
+		},
+		{
+			"id": "F",
+			"label": "Finger",
+			"count": 7
+		},
+		{
+			"id": "G",
+			"label": "Glutes",
+			"count": 0
+		},
+		{
+			"id": "H",
+			"label": "Hüfte",
+			"count": 0
+		},
+		{
+			"id": "HS",
+			"label": "Hamstrings",
+			"count": 0
+		},
+		{
+			"id": "OR",
+			"label": "Oberer Rücken",
+			"count": 2
+		},
+		{
+			"id": "P",
+			"label": "Pecs (Brust)",
+			"count": 0
+		},
+		{
+			"id": "Q",
+			"label": "Quadrizeps",
+			"count": 0
+		},
+		{
+			"id": "S",
+			"label": "Schultern",
+			"count": 0
+		},
+		{
+			"id": "T",
+			"label": "Trizeps",
+			"count": 0
+		},
+		{
+			"id": "U",
+			"label": "Unterarme",
+			"count": 0
+		},
+		{
+			"id": "UR",
+			"label": "Unterer Rücken",
+			"count": 1
+		}
+	]
 }

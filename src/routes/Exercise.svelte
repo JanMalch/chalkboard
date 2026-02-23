@@ -21,7 +21,7 @@
 		longestGoal: number;
 		longestAbbreviation: number;
 	} = $props();
-	const exerciseId = $derived(`${item.targetId}-${item.goalId}-${item.abbreviation}`);
+	const exerciseId = $derived(`${item.targetId}${item.goalId}${item.abbreviation}`);
 
 	const isOpen = $derived(building ? false : page.url.searchParams.get('id') === item.id);
 

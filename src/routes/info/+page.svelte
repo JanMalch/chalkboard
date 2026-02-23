@@ -24,9 +24,40 @@
 	<p>
 		Stattdessen soll es dir dabei helfen einen Überblick über mögliche Übungen zu bekommen und
 		einfache referenzierbare Namen für diese zu haben. Dies bietet dir und/oder deinem Coach die
-		Grundlage einen Trainingsplan zu erstellen und zu kommunizieren. Mit den Kurznamen lässt
-		sich in Kürze erkennen auf welchen Aspekten dein Fokus liegt, und wo du im Vergleich weniger
+		Grundlage einen Trainingsplan zu erstellen und zu kommunizieren. Mit den Kurznamen lässt sich in
+		Kürze erkennen auf welchen Aspekten dein Fokus liegt, und wo du im Vergleich weniger
 		investierst.
+	</p>
+
+	<h2>Klassifizierung</h2>
+
+	<p>Jeder Kurzname besteht aus drei Segmenten:</p>
+
+	<ol>
+		<li>In Großbuchstaben, der Bereich auf den abgezielt wird</li>
+		<li>In Kleinbuchstaben, das Ziel bzw. den Aspekt der Übung</li>
+		<li>Startend mit einem Großbuchstaben, eine Abkürzung für den Namen der Übung</li>
+	</ol>
+
+	<p>So steht „ORmPU“ beispielsweise für:</p>
+
+	<ol>
+		<li>Oberer Rücken (OR)</li>
+		<li>Maximalkraft (m)</li>
+		<li>Pull-up (PU)</li>
+	</ol>
+
+	<p>
+		Pull-ups könnten auch als Ausdauerübung (a) durchgeführt werden. Hierfür würdest du dir „ORaPU“
+		notieren. Chalkboard führt nicht alle denkbaren Varianten. Die Kurzschreibweise, mit ihrer
+		alternierender Groß- und Kleinschreibung der Segmente, ermöglicht schnelle und invididuelle
+		handschriftliche Notizen.
+	</p>
+	<p>
+		Falls eine Übung in keinen klaren Bereich fällt, kannst du das Segment einfach weglassen. Durch
+		die Groß- und Kleinschreibung ist der Kurzname immernoch eindeutig, sodass „tV6“ beispielsweise
+		für eine allgemeine Techniksession „t“ auf V6-Niveau stehen würde. Alternativ kannst du auch
+		Trennzeichen notieren („-t-V6“) und/oder durch beliebige Zeichen ersetzen („_tV6“, „*t*“, usw.)
 	</p>
 
 	<hr />

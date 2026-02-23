@@ -15,7 +15,7 @@ const targetIds = targets.targets.map((v) => v.id);
 const filterIds = [
 	...goalIds,
 	...targetIds,
-	...goalIds.flatMap((g) => targetIds.flatMap((t) => [t + '-' + g, t + g]))
+	...goalIds.flatMap((g) => targetIds.map((t) => t + g))
 ];
 /** @type {Map<string, any[]>} */
 const exercisesByFilterId = new Map(filterIds.map((filterId) => [filterId, []]));
@@ -24,7 +24,6 @@ for (const v of exercises.exercises) {
 	const vTarget = v.targetId;
 	exercisesByFilterId.get(vGoal).push(v);
 	exercisesByFilterId.get(vTarget).push(v);
-	exercisesByFilterId.get(vTarget + '-' + vGoal).push(v);
 	exercisesByFilterId.get(vTarget + vGoal).push(v);
 }
 exercisesByFilterId.forEach((value, key) => {
